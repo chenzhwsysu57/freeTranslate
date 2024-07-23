@@ -78,14 +78,20 @@ def translate(inputs):
     # pg.hotkey('command','down')
     t.keyboard(f'{MODIFIER}[down]')
     # click('icon/mac_copy.png')
-    try:
+    # try:
+    #     t.click('复制译文')
+    # except Exception as e:
+    #     print(e)
+    # try:
+    #     t.click('Copy translation')
+    # except Exception as e:
+    #     print(e)
+    if t.present('复制译文'):
         t.click('复制译文')
-    except Exception as e:
-        print(e)
-    try:
+    elif t.present('Copy translation'):
         t.click('Copy translation')
-    except Exception as e:
-        print(e)
+    else:
+        raise FileNotFoundError("cannot find Copy translation or 复制译文")
     while clip.paste() == str:
         pass 
     str = clip.paste()
@@ -98,10 +104,23 @@ def translate(inputs):
 # # pg.press('enter')
 # # pg.hotkey('command','a')
 
-if __name__ == "__main__":
-    df = pd.read_pickle('dataset.pkl')
+def translate_doc(filename):
+    df = pd.read_pickle(filename)
     for index,row in df.iterrows():
         if (row['en'] == None):
             row_en = translate(row['cn'])
             row['en'] = row_en
-            df.to_pickle('dataset.pkl')
+            df.to_pickle(filename)
+
+if __name__ == "__main__":
+    translate_doc("dataset.pkl")
+    translate_doc("麻醉学高级教程.pkl")
+    # filename = "dataset.pkl"
+    # df = pd.read_pickle(filename)
+    # for index,row in df.iterrows():
+    #     if (row['en'] == None):
+    #         row_en = translate(row['cn'])
+    #         row['en'] = row_en
+    #         df.to_pickle(filename)
+
+    # filename = "麻醉学高级教程.pkl"
