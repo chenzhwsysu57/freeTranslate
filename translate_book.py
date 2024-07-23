@@ -113,7 +113,7 @@ def translate_doc(filename):
             df.to_pickle(filename)
 
 if __name__ == "__main__":
-    translate_doc("dataset.pkl")
+    translate_doc("麻醉学-第3版杨拔贤.pkl")
     translate_doc("麻醉学高级教程.pkl")
     # filename = "dataset.pkl"
     # df = pd.read_pickle(filename)
