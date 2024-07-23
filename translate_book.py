@@ -58,8 +58,8 @@ def click(icon: str = None):
 def translate(inputs):
     t.init(visual_automation = True)
     t.url('https://translate.google.com/?sl=zh-CN&tl=en&text=%3Ctag%3E&op=translate')
+    t.wait(3)
     t.keyboard('[esc]')
-
     t.click('<tag>')
     clip.copy(inputs)
     str = clip.paste() + '<tag>'
