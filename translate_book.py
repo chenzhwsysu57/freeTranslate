@@ -68,7 +68,7 @@ def translate(inputs):
     t.keyboard(f'{MODIFIER}a')
     t.keyboard(f'{MODIFIER}v')
     # 等待翻译结果
-    time.sleep(1)
+    time.sleep(2)
     # t.click('保存翻译')
     t.click("//button[@aria-label='保存翻译']")
     # click('icon/mac_save.png')
