@@ -69,7 +69,8 @@ def translate(inputs):
     t.keyboard(f'{MODIFIER}v')
     # 等待翻译结果
     time.sleep(1)
-    t.click('保存翻译')
+    # t.click('保存翻译')
+    t.click("//button[@aria-label='保存翻译']")
     # click('icon/mac_save.png')
     # pg.hotkey('command','down')
     t.keyboard(f'{MODIFIER}[down]')
