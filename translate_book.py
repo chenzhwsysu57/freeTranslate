@@ -1,8 +1,18 @@
+# translate book from given pkl file
+
 import pyautogui as pg 
 import time
 import pyperclip as clip
+import pandas as pd
 import tagui as t
-
+import sys 
+MODIFIER = ""
+if sys.platform == 'darwin':
+    MODIFIER = '[cmd]'
+elif sys.platform == 'linux':
+    MODIFIER = '[ctrl]'
+else:
+    raise NotImplementedError(f"platform {sys.platform} not implented!")
 import cv2 as cv
 import pyautogui as pg 
 import numpy as np
@@ -49,24 +59,25 @@ def translate(inputs):
     t.init(visual_automation = True)
     t.url('https://translate.google.com/?sl=zh-CN&tl=en&text=%3Ctag%3E&op=translate')
     t.keyboard('[esc]')
-    for input in inputs:
-        t.click('<tag>')
-        clip.copy(input)
-        str = clip.paste() + '<tag>'
-        # pg.hotkey('command','v')
-        t.keyboard('[cmd]a')
-        t.keyboard('[cmd]v')
-        # 等待翻译结果
-        time.sleep(1)
-        t.click('保存翻译')
-        # click('icon/mac_save.png')
-        # pg.hotkey('command','down')
-        t.keyboard('[cmd][down]')
-        # click('icon/mac_copy.png')
-        t.click('复制译文')
-        while clip.paste() == str:
-            pass 
-        str = clip.paste()
+
+    t.click('<tag>')
+    clip.copy(inputs)
+    str = clip.paste() + '<tag>'
+    # pg.hotkey('command','v')
+    
+    t.keyboard(f'{MODIFIER}a')
+    t.keyboard(f'{MODIFIER}v')
+    # 等待翻译结果
+    time.sleep(1)
+    t.click('保存翻译')
+    # click('icon/mac_save.png')
+    # pg.hotkey('command','down')
+    t.keyboard(f'{MODIFIER}[down]')
+    # click('icon/mac_copy.png')
+    t.click('复制译文')
+    while clip.paste() == str:
+        pass 
+    str = clip.paste()
     t.close()
     return str
 # X, Y = 1381,-798
@@ -77,6 +88,9 @@ def translate(inputs):
 # # pg.hotkey('command','a')
 
 if __name__ == "__main__":
-    
-    str1
-    translate()
+    df = pd.read_pickle('dataset.pkl')
+    for index,row in df.iterrows():
+        if (row['en'] == None):
+            row_en = translate(row['cn'])
+            row['en'] = row_en
+            df.to_pickle('dataset.pkl')
