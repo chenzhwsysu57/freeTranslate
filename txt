@@ -1,0 +1,162 @@
+<tag>
+
+egin{enumerate}
+\item Broad and deep knowledge Master the basic theoretical knowledge of anesthesiology, pain medicine and critical care medicine, and have a certain understanding of the progress of the discipline.
+
+\item Proficient clinical skills Proficient in common anesthesia techniques and skills, master modern emergency resuscitation and monitoring techniques, and be familiar with new anesthesia methods and techniques.
+
+\item Have a certain ability to work independently Have strong adaptability. Able to independently complete anesthesia for common surgeries. Under the guidance of senior doctors, can play an important role in the anesthesia management of critically ill patients. Have certain teaching and scientific research capabilities.
+
+\item Become a "multi-talented" talent Have a tendency to develop specialized anesthesia, master special professional techniques, participate in the management of intensive care units (ICUs) and emergency and resuscitation work, as well as in-hospital consultations.
+
+\end{enumerate}
+
+\section*{II. Training time}
+Six years, including:
+
+egin{enumerate}
+\item Standardized training for anesthesia residents, referred to as "standardized training", for three years.
+
+\item Those who pass the standard training examination will enter the anesthesia specialist training for three years. The first two years are surgical comprehensive anesthesia training, which is the same as the previous two stages
+
+\end{enumerate}
+
+\section*{Anesthesia Resident Manual}
+Resident training. Including no less than half a year of general resident training.
+
+In the third year, specialists can choose to participate in a sub-specialty anesthesia specialist training, including cardiothoracic vascular anesthesia, pediatric anesthesia, obstetric anesthesia, advanced surgical comprehensive anesthesia, etc.
+
+\section*{III. Training program}
+egin{enumerate}
+\item The first year is the cultivation of basic knowledge and skills of clinical anesthesia.
+
+\item The second year is the cultivation of related disciplines-cardiology, respiratory medicine and ICU transfer study.
+
+\item The third year focuses on the training of clinical anesthesia, that is, to engage in specialized anesthesia, critical emergency and special disease anesthesia work, master specialized anesthesia technology, cultivate independent work ability, and improve management level.
+
+\item The fourth year is the training of chief resident doctors, that is, to give chief resident doctors work, cultivate management ability, improve anesthesia level, become the technical backbone of the department, and then become the guiding physician of junior resident doctors.
+
+\item The fifth year is the training of scientific research and teaching work ability, that is, to participate in the scientific research and teaching work of the department, undertake projects and write papers and reviews, and undertake the teaching tasks of undergraduate medical students.
+
+\item The sixth year selectively participates in the training of anesthesia sub-specialty specialists, including cardiothoracic vascular anesthesia, pediatric anesthesia, obstetric anesthesia, advanced surgical comprehensive anesthesia, etc.
+
+\end{enumerate}
+
+\section*{IV. Training requirements}
+Principles of training and use of the best, appointing people on the basis of merit; both moral integrity and ability, comprehensive development, and strong strength.
+
+egin{enumerate}
+\item Resident training is quantitatively trained and assessed based on clinical workload, participation in theoretical lectures and skill workshop training, theoretical and operational assessment, comprehensive quality assessment, and participation in scientific research.
+
+\item Have noble medical ethics and good quality and cultivation, have a high sense of professionalism and responsibility, be diligent, enterprising, and work hard.
+
+egin{enumerate}
+\setcounter{enumi}{2}
+\item Work hard for the development of the discipline, study hard, delve into technology, and actively participate in political studies, departmental activities, and business studies.
+
+\item Complete $1 \sim 2$ papers or reviews and several translations, and participate in clinical, laboratory, and teaching work.
+
+\item Implement a post-training business examination system and a medical ethics and service attitude assessment system every six months. Those who pass the examination will be recommended for promotion to attending physician after 5 years.
+
+\item Residents are supervised by a physician with a title of attending physician or above. Summarize the achievements once a year, find out the gaps, and improve the training plan.
+
+\item Maintain good unity within the department, cooperate with other departments in a friendly and sincere manner.
+
+\item For chief residents, follow the regulations on the duties of chief residents.
+
+\end{enumerate}
+
+\section*{Section 2 Duties and Routine of Residents in the Department of Anesthesiology}
+I. Duties of Residents
+
+egin{enumerate}
+\item Residents must have professional medical qualifications to participate in daily medical activities. Under the leadership of the director of the Department of Anesthesiology and the guidance of the attending physician, participate in the daily anesthesia work of the department as well as the specific work of teaching and scientific research.
+
+\item Under the guidance of the attending physician, visit patients before anesthesia, participate in preoperative discussions, jointly determine the anesthesia method and pre-anesthesia medication with the attending anesthesia physician, and prepare pre-anesthesia drugs and equipment.
+
+\item Participate in clinical anesthesia work under the specific guidance of the attending physician, closely observe the patient's condition during anesthesia, check blood transfusion, infusion and medication, and carefully fill out the anesthesia record sheet. If any abnormal changes occur, contact the operator in time, study together, properly handle, and report to the superior physician.
+
+\item After the operation, escort the patient to the anesthesia recovery room, ward or ICU, explain the patient's condition and postoperative precautions to the nurse, and fill out the "Anesthesia Course Log".
+
+\item Follow up after surgery and record the relevant situation in the "Anesthesia Course Log".
+
+\end{enumerate}
+
+\section*{Anesthesiology Resident Manual}
+egin{enumerate}
+\setcounter{enumi}{5}
+\item Strictly implement various rules and regulations and technical operating procedures to prevent errors and accidents.
+\end{enumerate}
+
+\section*{II. Chief Resident's Job Responsibilities}
+egin{enumerate}
+\item Undergraduate doctors can serve as chief residents in the fourth or fifth year of training.
+
+\item Under the leadership of the department director, assist the department director in doing a good job in various business and daily medical management work within the department.
+
+\item Carefully check and supervise the implementation of various anesthesia routine systems and technical operating procedures to prevent the occurrence of errors and accidents.
+
+\item Responsible for organizing and participating in the consultation, rescue and anesthesia work of difficult and critically ill patients in the department.
+
+\item Organize pre-anesthesia case discussions within the department every morning and listen to the guidance of the department director.
+
+\item Assist the department director to strengthen the training and daily management of residents, interns and interns.
+
+\item Responsible for supervising the inspection and summary of weekly anesthesia records, and responsible for the registration of consultations within the hospital, the discussion of medical errors and accidents, and organizing monthly anesthesia case discussions.
+
+\item Assist the department director to organize the clinical quality management summary meeting and supervise clinical quality improvement.
+
+\end{enumerate}
+
+\section*{III. Management system for anesthesiologists' outpatient endotracheal intubation}
+egin{enumerate}
+\item After receiving the consultation request, the patient's condition should be understood first so as to treat them differently, for example: whether the patient is an adult or a child, awake or unconscious, whether there is a difficult airway, etc.
+
+\item Fill in the consultation intubation record and charge in a timely manner.
+
+\item Refill the consumables in the intubation box in a timely manner.
+
+\item When rescuing general patients, you should change into scrubs before intubation. $
+ightarrow$ Wear surgical caps,
+
+\end{enumerate}
+
+\section*{1. General Principles for the Training of Residents in the Department of Anesthesiology, Peking University People's Hospital}
+Masks, goggles $
+ightarrow$ Wear gloves $
+ightarrow$ Wear outpatient clothing; when intubating, you should wear a splash screen. After completing the intubation and returning to the operating room, take off the shoe covers, gloves and outpatient clothing first.
+
+egin{enumerate}
+\setcounter{enumi}{4}
+\item For patients with fever or suspected SARS, when intubating in the emergency room, they should change into scrubs, $
+ightarrow$ wear isolation clothing, surgical cap (double layer), mask (double layer), goggles, shoe covers, and gloves (double layer) $
+ightarrow$ wear protective clothing. When intubating the endotrachea, a protective screen should be worn. When leaving the emergency room, first remove the outer gloves, then take off the protective clothing, outer cap, mask, shoe covers, and goggles, and then return to the operating room. The above used items are handled by the emergency room.
+
+\item After returning to the operating room, first remove the gloves, then take off the isolation clothing, cap and mask, and finally wash hands, take a shower, and change clothes.
+
+\end{enumerate}
+
+\section*{Section 3: Routine work of anesthesiologists}
+\section*{I. Pre-anesthesia visits and informed consent system}
+Unless there are special reasons, the anesthesiologist in charge should follow up the patient before surgery. Through pre-operative visits, understand the patient's general condition, coexisting diseases and severity, and treatment status, and evaluate the treatment results; understand the impact of surgical diseases on the body's physiological state, the type of surgical operation, the expected intraoperative blood loss and (or) fluid transfer, and evaluate the impact of the surgical operation itself on the circulation, respiratory and other systems; explain to the patient the anesthesia method to be selected, the risks and anesthesia complications and accidents that may be caused by anesthesia and monitoring, educate the patient before anesthesia consultation, ask the patient to sign an informed consent form for anesthesia, and record it in the medical record.
+
+For serious preoperative comorbidities that have not been treated or the treatment results are not satisfactory, and these diseases may increase the risk of anesthesia, the surgeon should be communicated with and the surgeon should be consulted. After weighing the urgency of the surgical disease and the risk to the patient, the best time for surgery should be decided and a decision that is more beneficial to the patient should be made. \
+For patients who require anesthesia, each patient should read, understand and sign the "Anesthesia Informed Consent" one day before anesthesia. The "Anesthesia Informed Consent" should be signed by the patient himself or the authorized person. Illiterate patients, patients without the ability to sign, and patients under the legal age can entrust their relatives to sign. The "Anesthesia Informed Consent" is valid only after being signed by the patient (or the authorized person) and the anesthesiologist. For patients (or authorized persons) who refuse to sign the "Anesthesia Informed Consent", the anesthesiologist has the right to refuse to give the patient anesthesia; the patient should bear full responsibility for all consequences caused by the failure to perform the operation in time due to the refusal to sign. The "Anesthesia Informed Consent" should be kept together with the patient's medical records. The anesthesiologist provides anesthesia according to the provisions of the "Anesthesia Informed Consent".
+
+When talking with patients and/or their families, residents should learn to pay attention to communication. First, introduce yourself as the anesthesiologist for the patient's surgery. In addition to yourself, there is also a senior anesthesiologist responsible for the anesthesia of this patient. When discussing the disease, you should show that you are very familiar with the patient's condition. When introducing the anesthesia method, risks, complications and accidents, you can make the patient and/or family realize that they must benefit from anesthesia for surgery, and at the same time make them aware of the anesthesia risks they must bear. But let the patient and/or family understand that complications and accidents have a certain probability of occurrence, and not every patient will have them. Let the patient realize that surgery has risks, but it is also relatively safe. For patients with American Society of Anesthesiologists (ASA) grade II or above or critically ill patients, the family members must sign the "Anesthesia Informed Consent Form", fully explain the anesthesia risks, and explain that the anesthesiologist will make every effort to prevent and deal with anesthesia risks as much as possible. Anesthesiologists should know what must be said (such as risk notification), what should be said (such as we will do our best) and what cannot be said (such as exaggerating the danger, devaluing surgeons, etc.) when talking to patients and/or their families before anesthesia.
+
+\section*{II. Surgical Safety Verification System ("Three-party Verification")}
+egin{enumerate}
+\item Surgical safety verification is jointly performed by qualified surgeons, anesthesiologists and operating room nurses. The patient's identity and surgical site are verified before anesthesia is performed, before the operation begins, and before the patient leaves the operating room. All surgical patients should wear a label with patient identification information for verification. The surgeon, anesthesiologist and operating room nurse fill in the "Surgical Safety Verification Form" item by item and confirm it together. For operations without the participation of anesthesiologists, the surgeon and operating room nurse fill in the corresponding content.
+
+\item Content and process of implementing surgical safety check
+
+\end{enumerate}
+
+(1) Before anesthesia is implemented: the parties to the check confirm the contents of the first item of the "Surgical Safety Checklist" before anesthesia in turn: patient identity (name, gender, age and medical record number), surgical method, informed consent, surgical site and identification, whether the safety inspection of anesthesia equipment is completed, implants, prostheses, patient allergy history, antimicrobial skin test results, infectious disease examination results, preoperative blood preparation, skin integrity, surgical field skin preparation, intravenous access establishment, imaging data, etc.
+
+(2) Before the start of surgery: the parties to the check jointly check the contents of the second item of the "Surgical Safety Checklist" before the start of surgery: patient identity (name, gender and age), surgical method, surgical site, surgical position, surgical and anesthesia risk warning (estimated operation time, expected blood loss, surgical focus, anesthesia focus, whether the sterilization of items is qualified, etc.), and whether antibiotics were given 30 minutes before skin incision, etc.
+
+(3) Before the patient leaves the operating room: All parties involved in the verification jointly verify the contents of the third item of the "Surgical Safety Checklist" before the patient leaves the operating room: patient identity (name, gender and age), actual surgical method, surgical medication and blood transfusion, inventory of surgical supplies, confirmation of surgical specimens, inspection of skin integrity, arteriovenous access, drainage tube, urinary catheter, postoperative analgesia pump, confirmation of patient's destination, etc.
+
+(4) All parties involved in the verification fill in the relevant verification items and sign the "Surgical Safety Checklist", which will be kept in the medical record.
