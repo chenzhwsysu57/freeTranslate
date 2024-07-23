@@ -78,7 +78,14 @@ def translate(inputs):
     # pg.hotkey('command','down')
     t.keyboard(f'{MODIFIER}[down]')
     # click('icon/mac_copy.png')
-    t.click('复制译文')
+    try:
+        t.click('复制译文')
+    except Exception as e:
+        print(e)
+    try:
+        t.click('Copy translation')
+    except Exception as e:
+        print(e)
     while clip.paste() == str:
         pass 
     str = clip.paste()
