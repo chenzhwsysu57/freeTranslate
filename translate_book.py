@@ -112,6 +112,9 @@ def translate_doc(filename):
             row['en'] = row_en
             df.to_pickle(filename)
 
+
+
+
 if __name__ == "__main__":
     translate_doc("麻醉学-第3版杨拔贤.pkl")
     translate_doc("麻醉学高级教程.pkl")
