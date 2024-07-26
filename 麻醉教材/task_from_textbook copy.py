@@ -9,7 +9,7 @@ import sys
 import random
 import glob
 import pickle
-os.environ['OPENAI_API_KEY'] = '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'
+
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "<your OpenAI API key if not set as env var>"))
 with open('datasets.pkl', 'rb') as f:
     datasets = pickle.load(f)
