@@ -1,0 +1,30 @@
+[
+    {
+        "query": "什么是肺容量？",
+        "answer": "肺容量（lung volume）是指不同程度用力呼吸产生的容量变化。肺容量包括多种通气容量，例如潮气量（tidal volume, VT），深吸气量（inspiratory capacity, IC）和补吸气量（inspiratory reserve volume, IRV），补呼气量（expiratory reserve volume, ERV），残气量（residual volume, RV）和功能残气量（functional residual capacity, FRC）。这些容量指标用于评估肺的通气功能和储备能力。"
+    },
+    {
+        "query": "什么是潮气量？",
+        "answer": "潮气量（tidal volume, VT）是指平静呼吸时每次吸入或呼出的气量。男性的潮气量一般为350至550毫升，女性为260至540毫升。最大潮气量即是肺活量。对于小儿，潮气量可按每公斤体重6至8毫升计算。潮气量也是机械通气时应维持的每次通气量。"
+    },
+    {
+        "query": "什么是深吸气量和补吸气量？",
+        "answer": "深吸气量（inspiratory capacity, IC）是指平静呼气末再用力吸气至不能吸为止所能吸入的最大气体容量。补吸气量（inspiratory reserve volume, IRV）指平静吸气末再用力吸入的最大气量。男性的IC约为2100毫升，女性约为1500毫升。IC反映了肺的储备能力。IRV是IC的一部分，IC等于IRV加上潮气量（TV）。"
+    },
+    {
+        "query": "什么是补呼气量？",
+        "answer": "补呼气量（expiratory reserve volume, ERV）是指平静呼气末再用力呼气至不能呼出为止所能呼出的气体容量。男性的ERV一般为1100至1900毫升，女性为800至1300毫升。"
+    },
+    {
+        "query": "什么是残气量和功能残气量？",
+        "answer": "残气量（residual volume, RV）是指一次用力呼气后肺内所残存的气量。男性的RV一般为400至1900毫升，女性为500至1200毫升。老年人及肺气肿病人的肺泡弹性减弱，残气量显著增加，从而使肺活量减少。功能残气量（functional residual capacity, FRC）是指平静呼气后存留在肺内的气量，即FRC等于ERV加上RV。FRC是反映气体交换功能的重要标志之一。"
+    },
+    {
+        "query": "什么是肺活量？",
+        "answer": "肺活量（vital capacity, VC）是指最大吸气后，用最大努力呼气所能呼出的气量，即深吸气量加上补呼气量。男性的VC一般为3400至4800毫升，女性为2500至3200毫升。肺活量常用于衡量病人的呼吸代偿功能，但单纯以肺活量值衡量肺功能意义不大，因为它与肺疾患对呼吸功能的损害程度不完全一致。"
+    },
+    {
+        "query": "什么是肺总量？",
+        "answer": "肺总量（total lung capacity, TLC）是指深吸气后肺内所含的气量，即肺活量加上残气量。男性的TLC一般为4600至6400毫升，女性为3000至4200毫升。当肺总量不变时，功能残气量（FRC）的增加会引起深吸气量的减少，从而限制了在必要时增加通气功能的能力。"
+    }
+]

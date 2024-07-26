@@ -1,0 +1,26 @@
+[
+    {
+        "query": "正常的 $ mathrm{CO}_{2}$ 波形一般分为哪四段？",
+        "answer": "正常的 $ mathrm{CO}_{2}$ 波形一般分四段：I 相 (吸气基线)，II 相 (呼气上升支)，III 相 (呼气平台)，IV 相 (呼气下降支)。"
+    },
+    {
+        "query": "呼气末 $ mathrm{CO}_{2}$ 的波形中，基线和高度分别代表什么？",
+        "answer": "基线代表 $ mathrm{CO}_{2}$ 浓度，一般应等于零；高度代表 $ mathrm{C}_{ mathrm{ET}}  mathrm{O}_{2}$ 浓度。"
+    },
+    {
+        "query": "正常的 $ mathrm{CO}_{2}$ 波形图中，$ mathrm{D}$ 点表示什么？",
+        "answer": "$ mathrm{D}$ 点是 $ mathrm{CO}_{2}$ 波形的最高值，代表呼气末 $ mathrm{CO}_{2}$ 值。"
+    },
+    {
+        "query": "突然降到零附近的 $ mathrm{P}_{ mathrm{ET}}  mathrm{CO}_{2}$ 可能预示什么情况？",
+        "answer": "突然降到零附近的 $ mathrm{P}_{ mathrm{ET}}  mathrm{CO}_{2}$ 常常预示情况危急，如气管导管误入食管、导管连接脱落、完全的通气故障或导管阻塞。"
+    },
+    {
+        "query": "指数降低的 $ mathrm{P}_{ mathrm{ET}}  mathrm{CO}_{2}$ 预示什么？",
+        "answer": "指数降低的 $ mathrm{P}_{ mathrm{ET}}  mathrm{CO}_{2}$ 在短时间内发生，预示心搏骤停，其原因可能包括生理性死腔通气增加或从组织中扩散到肺内的 $ mathrm{CO}_{2}$ 减少。"
+    },
+    {
+        "query": "如果 $ mathrm{P}_{ mathrm{ET}}  mathrm{CO}_{2}$ 平台逐渐降低，这可能与什么因素有关？",
+        "answer": "$ mathrm{P}_{ mathrm{ET}}  mathrm{CO}_{2}$ 平台逐渐降低可能与低体温、过度通气、全麻和/或肺血容量不足、肺灌注降低有关。"
+    }
+]

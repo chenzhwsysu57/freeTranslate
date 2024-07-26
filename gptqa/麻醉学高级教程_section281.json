@@ -1,0 +1,50 @@
+[
+    {
+        "query": "What are the clinical characteristics of desflurane in surgical patients?",
+        "answer": "Desflurane has a minimum alveolar concentration (MAC) of 0.74 in surgical patients."
+    },
+    {
+        "query": "How do intravenous opioids affect airway irritation during induction of anesthesia with desflurane?",
+        "answer": "Intravenous opioids reduce airway irritation during induction of anesthesia with desflurane in adults."
+    },
+    {
+        "query": "What effect does dry soda lime have on sevoflurane during simulated inhalation induction?",
+        "answer": "Dry soda lime markedly degrades sevoflurane during simulated inhalation induction."
+    },
+    {
+        "query": "How does sevoflurane compare to halothane in terms of induction and recovery for children undergoing outpatient dental extractions?",
+        "answer": "Sevoflurane and halothane are compared in terms of induction and recovery, with sevoflurane generally preferred."
+    },
+    {
+        "query": "What are the reasons for failure in fast-tracking after outpatient laparoscopy with different anesthetics?",
+        "answer": "Reasons for failure after outpatient laparoscopy include the use of propofol, sevoflurane, and desflurane anesthesia."
+    },
+    {
+        "query": "How does premedication with midazolam affect recovery after ambulatory sevoflurane anesthesia in children?",
+        "answer": "Premedication with midazolam delays recovery after ambulatory sevoflurane anesthesia in children."
+    },
+    {
+        "query": "What are the differences between sevoflurane and isoflurane in ambulatory surgery?",
+        "answer": "Sevoflurane and isoflurane are compared in a multicenter study, with results showing differences in their effects on ambulatory surgery."
+    },
+    {
+        "query": "How does sevoflurane compare to isoflurane in terms of induction and recovery with single-breath inhaled inductions?",
+        "answer": "Sevoflurane and isoflurane are compared in terms of induction and recovery, with specific characteristics observed for each."
+    },
+    {
+        "query": "What is the impact of positive pressure ventilation with the laryngeal mask airway on sevoflurane versus propofol maintenance techniques?",
+        "answer": "Positive pressure ventilation with the laryngeal mask airway is compared between sevoflurane and propofol maintenance techniques."
+    },
+    {
+        "query": "What is the effect of sevoflurane versus propofol on emergence agitation in pediatric patients?",
+        "answer": "Sevoflurane and propofol are compared regarding their effects on emergence agitation in pediatric patients."
+    },
+    {
+        "query": "Does desflurane provide bronchodilation during anesthesia?",
+        "answer": "Desflurane does not provide bronchodilation during anesthesia."
+    },
+    {
+        "query": "How do isoflurane and sevoflurane affect norepinephrine response to surgical noxious stimulation?",
+        "answer": "Isoflurane and sevoflurane augment norepinephrine response to surgical noxious stimulation in humans."
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "query": "在不同年龄阶段中，动脉血氧饱和度 ($\mathrm{SO}_2$) 和动脉血氧分压 ($\mathrm{PO}_2$) 的关系如何？",
+        "answer": "在不同年龄阶段中，动脉血氧饱和度 ($\mathrm{SO}_2$) 与动脉血氧分压 ($\mathrm{PO}_2$) 之间的关系有所不同。根据表3-11-4，当 $\mathrm{P}_{50}$ 为不同值时，$\mathrm{SO}_2$ 和 $\mathrm{PO}_2$ 的计算值如下：在 $1$ 天大的婴儿中，$\mathrm{P}_{50} = 19$ mmHg 对应的 $\mathrm{PO}_2 = 108$ mmHg，$\mathrm{P}_{50} = 90$ mmHg 对应的 $\mathrm{PO}_2 = 37$ mmHg。对于 $6$ 个月到 $6$ 岁的儿童，$\mathrm{P}_{50} = 29$ mmHg 对应的 $\mathrm{PO}_2 = 143$ mmHg，而 $\mathrm{P}_{50} = 90$ mmHg 对应的 $\mathrm{PO}_2 = 56$ mmHg。成人的情况中，$\mathrm{P}_{50} = 27$ mmHg 对应的 $\mathrm{PO}_2 = 156$ mmHg，$\mathrm{P}_{50} = 90$ mmHg 对应的 $\mathrm{PO}_2 = 58$ mmHg。"
+    },
+    {
+        "query": "不同年龄阶段中的 Hb 浓度要求是多少以确保等量氧释？",
+        "answer": "不同年龄阶段的等量氧释所需的 Hb (血红蛋白) 浓度有所不同。根据表3-11-3，成人的 Hb 浓度需求分别为：$\mathrm{P}_{50} = 70$ mmHg 对应 70 g/L，$\mathrm{P}_{50} = 130$ mmHg 对应 130 g/L。对于婴儿（大于 3 个月），$\mathrm{P}_{50} = 30$ mmHg 对应的 Hb 需求从 57 g/L 到 106 g/L 不等。而新生儿（小于 2 个月），$\mathrm{P}_{50} = 24$ mmHg 对应的 Hb 需求从 103 g/L 到 191 g/L 不等。这些数值表明，在较低的 $\mathrm{P}_{50}$ 值下，需要更高的 Hb 浓度以确保等量氧释。"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {"query": "转录起始过程中，DNA双链打开形成的复合体是什么？", "answer": "开放转录复合体"},
+    {"query": "在转录起始过程中，第一个磷酸二醋键的形成不需要什么？", "answer": "RNA引物"},
+    {"query": "转录起始中，RNA的第一位核苷酸通常由什么决定？", "answer": "GTP＞ATP"},
+    {"query": "转录复合体在RNA链延长阶段的构象变化是由什么导致的？", "answer": "σ亚基脱落"},
+    {"query": "RNA链延长过程中，核心酶沿DNA链前移的方向是？", "answer": "下游"},
+    {"query": "RNA链延长过程中，核心酶覆盖的DNA分子段落长度通常为多少？", "answer": "40bp以上"},
+    {"query": "RNA链延长过程中，解链和再聚合的开链区大约为多少bp？", "answer": "17bp"},
+    {"query": "RNA链的5'-端结构在转录延长中如何变化？", "answer": "一直保留"},
+    {"query": "DNA双链结构比DNA/RNA杂化双链稳定的碱基配对顺序是？", "answer": "G=C>A=T>A=U"},
+    {"query": "核心酶负责RNA链延长的过程中，RNA链从哪个方向延长？", "answer": "5'-端向3'-端"},
+    {"query": "原核生物中，转录延长与蛋白质翻译是否同时进行？", "answer": "是"},
+    {"query": "原核生物中转录终止分为哪两类？", "answer": "依赖p因子和非依赖p因子"},
+    {"query": "非依赖p因子的转录终止信号是什么？", "answer": "终止信号的3'-端有多个连续的U，以及形成茎环结构"},
+    {"query": "真核生物中，转录生成的RNA中有多少比例存在反义RNA？", "answer": "20%以上"},
+    {"query": "真核生物中RNA聚合酶I的主要功能是什么？", "answer": "催化合成rRNA的前体"},
+    {"query": "RNApol II转录生成的前体RNA经过什么加工成mRNA？", "answer": "加工成mRNA"},
+    {"query": "真核生物中RNApol II生成的RNA中哪种RNA的寿命最短？", "answer": "mRNA"},
+    {"query": "RNApol III主要催化哪些RNA的合成？", "answer": "tRNA、5SrRNA和一些核小RNA snRNA"}
+]

@@ -1,0 +1,7 @@
+[{"count":1,"task":"请解释什么是通气储量百分比及其正常值范围是多少？","output":"通气储量百分比等于（最大通气量-每分通气量）/ 最大通气量 * 100% 。正常值应高于93%。如果低于86%则提示通气储备不佳，70%以下则说明通气功能严重受损。"},
+{"count":2,"task":"用力肺活量 (forced vital capacity, FVC) 和用力呼气量 (forced expiratory volume, FEV )的概念是什么？","output":"FVC 指的是在最大吸气后，尽快呼气所能呼出的最大气量。FEV 是根据 FVC 计算出单位时间内所呼出的气量及占用力肺活量的百分比，常用的有FEV1，FEV2，FEV3，其中FEV1最有意义。"},
+{"count":3,"task":"正常人的 $ mathrm{FEV} /  mathrm{FVC}( %)$  是多少？其主要用于诊断什么疾病？","output":"正常人的 $ mathrm{FEV} /  mathrm{FVC}( %)$ 一般大于80%，主要用于判断较大气道是否有阻塞。"},
+{"count":4,"task":"气流阻塞的常见疾病有哪些？请列举三个。","output":"气流阻塞常见于三种疾病：支气管哮喘、肺气肿、慢性支气管炎。"},
+{"count":5,"task":"$ mathrm{FEV}_{1}$ 大于正常值可能患有哪些疾病？","output":"$ mathrm{FEV}_{1}$ 大于正常值则可能患有限制性通气功能障碍，常见的包括胸膜增厚粘连、胸廓畸形等疾病。"},
+{"count":6,"task":"最大呼气中段流量 (maximal mid-expiratory flow, MMEF) 如何定义，及其正常值范围是多少？","output":"MMEF 是将用力呼气中段曲线起、止点间分成四等分, 计算中间两等分（25%到75%）的平均流量。正常值：成年男性约 $3.36  mathrm{~L} /  mathrm{s}$, 成年女性约 $2.38  mathrm{~L} /  mathrm{s}$。"},
+{"count":7,"task":"MVV、FVC、$V_{E}$ 以及 FEV 和 MMEF 分别如何测量？","output":"MVV、FVC、$V_{E}$由肺量计直接测量，而FEV和MMEF则根据由肺量计描出的用力肺活量曲线计算得出。"}]

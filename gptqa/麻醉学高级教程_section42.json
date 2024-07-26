@@ -1,0 +1,30 @@
+[
+    {
+        "query": "什么是潮气量？",
+        "answer": "潮气量（tidal volume, VT）是指平静呼吸时每次吸入或呼出的气量。男性为350～550 ml，女性为260～540 ml。小儿潮气量可按6～8 ml/kg计算。"
+    },
+    {
+        "query": "什么是深吸气量和补吸气量？",
+        "answer": "深吸气量（inspiratory capacity, IC）是指平静呼气末再用力吸气至不能吸为止所能吸入的最大气体容量。补吸气量（inspiratory reserve volume, IRV）指平静吸气末再用力吸入的最大气量。男性IC为2100 ml，女性IC为1500 ml。IRV是IC中的一部分，IC = IRV + TV。"
+    },
+    {
+        "query": "什么是补呼气量？",
+        "answer": "补呼气量（expiratory reserve volume, ERV）是指平静呼气末再用力呼气至不能呼出为止所能呼出的气体容量。男性为1100～1900 ml，女性为800～1300 ml。"
+    },
+    {
+        "query": "什么是残气量和功能残气量？",
+        "answer": "残气量（residual volume, RV）指一次用力呼气后肺内残存的气量。男性为400～1900 ml，女性为500～1200 ml。功能残气量（functional residual capacity, FRC）指平静呼气后存留在肺内的气量，即FRC = ERV + RV。"
+    },
+    {
+        "query": "什么因素会影响功能残气量（FRC）？",
+        "answer": "降低FRC的因素包括卧位、麻醉、腹部和胸部手术后、肺纤维化、肺水肿、肥胖、腹胀（如妊娠、肿瘤、腹水）和胸廓畸形。增加FRC的因素包括胸内压增加（如PEEP、CPAP）、肺气肿和高龄。"
+    },
+    {
+        "query": "什么是肺活量？",
+        "answer": "肺活量（vital capacity, VC）是指于最大吸气后，做最大努力呼气所能呼出的气量，包括深吸气量和补呼气量。男性为3400～4800 ml，女性为2500～3200 ml。"
+    },
+    {
+        "query": "什么是肺总量？",
+        "answer": "肺总量（total lung capacity, TLC）是指于深吸气后肺内所含的气量，即肺活量加残气量。男性为4600～6400 ml，女性为3000～4200 ml。"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "query": "What is the title of the book edited by Miller RD that includes information on respiratory care?",
+        "answer": "Anesthesia"
+    },
+    {
+        "query": "Which publication discusses ventilator-associated lung injury and better therapeutic targets?",
+        "answer": "Oeckier RA, Hubmayr RD. Ventilator-associated lung injury: a search for better therapeutic targets. Eur Respir J, 2007, 30(6):1216-1226."
+    },
+    {
+        "query": "What are the effects of automatic tube compensation and inspiratory pressure support on respiratory comfort?",
+        "answer": "Guttmann J, Bernhard H, Mols G, et al. Respiratory comfort of automatic tube compensation and inspiratory pressure support in conscious humans. Intensive Care Med, 1997, 23:1119."
+    },
+    {
+        "query": "What does the study by Mols G et al. analyze regarding breathing patterns during mechanical ventilation?",
+        "answer": "Mols G, Rohr E, Benzing A, et al. Breathing pattern associated with respiratory comfort during automatic tube compensation and pressure support ventilation in normal subjects. Acta Anaesthesiol Scand, 2000, 44:223-230."
+    },
+    {
+        "query": "Which article compares proportional assist ventilation and pressure support ventilation for patients with chronic obstructive pulmonary disease?",
+        "answer": "Wrigge H, Golisch W, Zinserling J, et al. Proportional assist versus pressure support ventilation: effects on breathing pattern and respiratory work of patients with chronic obstructive pulmonary disease. Intensive Care Med, 1999, 25:790-798."
+    },
+    {
+        "query": "What is the focus of the review by Hardy AK published in 1994?",
+        "answer": "Hardy AK. A review of airway clearance: New techniques, indications, and recommendations. Respire Care, 1994, 39:440."
+    },
+    {
+        "query": "Which publication provides guidelines on noninvasive positive pressure ventilation in acute respiratory failure?",
+        "answer": "American Thoracic Society. International consensus conferences in intensive care medicine; noninvasive positive pressure ventilation in acute respiratory failure. Am J Respir Crit Care Med, 2001, 163:283."
+    },
+    {
+        "query": "What is the title of the publication discussing thirty years of clinical trials in acute respiratory distress syndrome?",
+        "answer": "Mcintyre Jr RC, Pulido EJ, Bensard D, et al. Thirty years of clinical trials in acute respiratory distress syndrome. Crit Care Med, 2000, 28:3314."
+    },
+    {
+        "query": "Which study compares ventilation with lower tidal volumes versus traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome?",
+        "answer": "The Acute Respiratory Distress Syndrome Network. Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome. N Engl J Med, 2000, 342:1301."
+    }
+]

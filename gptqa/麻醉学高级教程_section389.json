@@ -1,0 +1,30 @@
+[
+    {
+        "query": "人体产生的酸有哪些？",
+        "answer": "人体产生的酸包括呼吸性酸和代谢性酸。呼吸性酸又称挥发性酸，主要通过呼吸从肺排泄；代谢性酸主要来自于脂肪、蛋白质等代谢的中间产物，如乳酸、磷酸等，主要从肾脏排泄。"
+    },
+    {
+        "query": "血浆pH的正常值是多少？",
+        "answer": "血浆pH的正常值为7.35至7.45。"
+    },
+    {
+        "query": "pH值主要取决于什么？",
+        "answer": "pH值主要取决于血浆中的[HCO3-]与[H2CO3]的比值。"
+    },
+    {
+        "query": "Henderson-Hasselbalch公式是怎样的？",
+        "answer": "Henderson-Hasselbalch公式为: pH = pKa + log([HCO3-] / [H2CO3])，其中pKa为一个常数，为溶液中物质50%离解时的pH值。"
+    },
+    {
+        "query": "在正常血浆中，[HCO3-]与[H2CO3]的比值是多少？",
+        "answer": "在正常血浆中，[HCO3-]与[H2CO3]的比值为20:1。"
+    },
+    {
+        "query": "Henderson公式中[H+]、[HCO3-]与PaCO2之间的关系是怎样的？",
+        "answer": "Henderson公式表示为: [H+] mEq/L = 24 × PaCO2 / [HCO3-] mEq/L。在pH为7.40时，[H+]为40 mEq/L。"
+    },
+    {
+        "query": "当pH在7.1至7.5之间变化时，[H+]如何变化？",
+        "answer": "当pH在7.1至7.5之间变化时，pH每改变0.01，[H+]就升高或降低1 mEq/L。"
+    }
+]

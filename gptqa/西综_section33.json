@@ -1,0 +1,82 @@
+[
+    {
+        "query": "RNApol II合成哪些非编码RNA？",
+        "answer": "长非编码RNA (lncRNA)、微小RNA和piRNA"
+    },
+    {
+        "query": "RNApol III的催化作用包括哪些RNA的合成？",
+        "answer": "tRNA、5SrRNA和一些核小RNA (snRNA)"
+    },
+    {
+        "query": "RNApol I对a-鹅膏簟碱的敏感性如何？",
+        "answer": "不敏感"
+    },
+    {
+        "query": "RNApol II对a-鹅膏簟碱的敏感性如何？",
+        "answer": "十分敏感"
+    },
+    {
+        "query": "RNApol III对a-鹅膏簟碱的敏感性如何？",
+        "answer": "高浓度下敏感"
+    },
+    {
+        "query": "顺式作用元件包括哪些？",
+        "answer": "核心启动子序列、启动子上游元件、增强子"
+    },
+    {
+        "query": "核心启动子的位置和功能是什么？",
+        "answer": "位置：转录起始点至上游-37bp的启动子区域；功能：是转录起始前复合物的结合位点"
+    },
+    {
+        "query": "启动子上游元件的定义和位置是什么？",
+        "answer": "定义：是位于TATA盒上游的DNA序列；位置：多在转录起始点上游约40~200bp的位置"
+    },
+    {
+        "query": "启动子上游元件的序列和功能是什么？",
+        "answer": "序列：CAAT盒和GC盒；功能：与相应的蛋白因子结合能提高或改变转录效率"
+    },
+    {
+        "query": "增强子的定义和位置是什么？",
+        "answer": "定义：是能够结合特异基因调节蛋白并促进邻近或远隔特定基因表达的DNA序列；位置：增强子距转录起始点的距离变化很大，从1000bp到50000bp，甚至更大"
+    },
+    {
+        "query": "真核生物的转录起始需要哪些通用转录因子？",
+        "answer": "TFII A、TFII B、TFII D、TFII E、TFII F、TFII H"
+    },
+    {
+        "query": "TFIID含有哪种亚基？",
+        "answer": "TBP（TATA结合蛋白）"
+    },
+    {
+        "query": "TFIID的功能是什么？",
+        "answer": "结合启动子的TATA盒DNA序列"
+    },
+    {
+        "query": "TFII A的功能是什么？",
+        "answer": "辅助和加强TBP与DNA的结合"
+    },
+    {
+        "query": "TFII B的功能是什么？",
+        "answer": "结合TFII D，稳定TFII D-DNA复合物；介导RNApol II的募集"
+    },
+    {
+        "query": "TFII E的功能是什么？",
+        "answer": "募集TFII H，并调节其激酶和解螺旋酶活性；结合单链DNA，稳定解链状态"
+    },
+    {
+        "query": "TFII F的功能是什么？",
+        "answer": "结合RNApol II，并随其进入转录延长阶段，防止其与DNA的接触"
+    },
+    {
+        "query": "TFII H的功能是什么？",
+        "answer": "解旋酶和ATPase酶活性；作为蛋白激酶参与CTD磷酸化"
+    },
+    {
+        "query": "特异转录因子的特点是什么？",
+        "answer": "是在特定类型的细胞中高表达，并对一些基因的转录进行时间和空间特异性调控"
+    },
+    {
+        "query": "转录起始前复合物（PIC）的组成部分是什么？",
+        "answer": "TFIID的TBP亚基、TFII A、TFII B"
+    }
+]

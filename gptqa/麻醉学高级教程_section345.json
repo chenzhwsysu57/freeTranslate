@@ -1,0 +1,42 @@
+[
+    {
+        "query": "What is the shape of the oxygen-hemoglobin dissociation curve?",
+        "answer": "The oxygen-hemoglobin dissociation curve is 'S' shaped."
+    },
+    {
+        "query": "What happens to oxygen dissociation when PaO2 is between 1.33 and 5.33 kPa?",
+        "answer": "When PaO2 is between 1.33 and 5.33 kPa, a slight decrease in PaO2 can cause a significant release of oxygen from hemoglobin, which is beneficial for supplying oxygen to tissues."
+    },
+    {
+        "query": "What factors affect the oxygen dissociation curve?",
+        "answer": "Factors affecting the oxygen dissociation curve include pH, PaCO2, temperature, and the concentration of 2,3-diphosphoglycerate (2,3-DPG) in red blood cells."
+    },
+    {
+        "query": "How is oxygen delivery (DO2) defined?",
+        "answer": "Oxygen delivery (DO2) is defined as the product of cardiac output and arterial oxygen content. Normal oxygen delivery is approximately 1000 ml per minute."
+    },
+    {
+        "query": "What is the relationship between DO2 and VO2 in severe cases of DO2 reduction?",
+        "answer": "In cases of severe DO2 reduction, VO2 shows a decreased linear correlation with DO2, which can lead to hypoxemia and anaerobic metabolism, such as lactic acidosis."
+    },
+    {
+        "query": "What is the normal range for arterial oxygen partial pressure (PaO2)?",
+        "answer": "The normal range for arterial oxygen partial pressure (PaO2) is 80 to 110 mmHg."
+    },
+    {
+        "query": "What does the mixed venous oxygen saturation (SvO2) indicate?",
+        "answer": "Mixed venous oxygen saturation (SvO2) indicates the balance between oxygen delivery and oxygen consumption. An increase in SvO2 may occur due to factors such as vasodilator medications or sepsis."
+    },
+    {
+        "query": "What is the average rate of CO2 production (VCO2) in a resting adult?",
+        "answer": "The average rate of CO2 production (VCO2) in a resting adult is 200 ml per minute."
+    },
+    {
+        "query": "What is the formula to calculate PaCO2 from VCO2 and alveolar ventilation (VA)?",
+        "answer": "The formula to calculate PaCO2 is PaCO2 = VCO2 / (K × VA), where K is 0.863 and VA is the alveolar ventilation in liters per minute."
+    },
+    {
+        "query": "What is the normal difference in PaCO2 between arterial blood and mixed venous blood?",
+        "answer": "The normal difference in PaCO2 between arterial blood and mixed venous blood is approximately 6 mmHg."
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "query": "什么是标准碳酸氢盐 (SB)?",
+        "answer": "标准碳酸氢盐 (SB) 是指血液在 $38^{ circ} \mathrm{C}$, 血红蛋白完全氧合的条件下, $ \mathrm{PCO}_{2}$ 为 $5.32 \mathrm{kPa}$ 的气体平衡后测得的血浆 $ \mathrm{HCO}_{3}^{-}$含量。正常平均值为 $24 \mathrm{mmol} / \mathrm{L}$, 范围为 $22 \sim 27 \mathrm{mmol} / \mathrm{L}$。"
+    },
+    {
+        "query": "什么是实际碳酸氢盐 (AB)?",
+        "answer": "实际碳酸氢盐 (AB) 是指隔绝空气的血液标本, 在实际血氧饱和度和 $ \mathrm{PCO}_{2}$ 条件下测得的血浆 $ \mathrm{HCO}_{3}^{-}$浓度。正常人 $ \mathrm{SB}$ 与 $ \mathrm{AB}$ 相等, 为 $22 \sim 27 \mathrm{mmol} / \mathrm{L}$, 平均为 $24 \mathrm{mmol} / \mathrm{L}$。"
+    },
+    {
+        "query": "代谢性酸中毒时标准碳酸氢盐 (SB) 和实际碳酸氢盐 (AB) 的变化是什么?",
+        "answer": "代谢性酸中毒时, 两者都降低。"
+    },
+    {
+        "query": "代谢性碱中毒时标准碳酸氢盐 (SB) 和实际碳酸氢盐 (AB) 的变化是什么?",
+        "answer": "代谢性碱中毒时, 两者都升高。"
+    },
+    {
+        "query": "在呼吸性酸碱平衡紊乱时，标准碳酸氢盐 (SB) 和实际碳酸氢盐 (AB) 可能有什么区别?",
+        "answer": "在呼吸性酸碱平衡紊乱时, 两者可不相等。"
+    },
+    {
+        "query": "标准碳酸氢盐 (SB) 和实际碳酸氢盐 (AB) 的不同可以反映什么情况?",
+        "answer": "$ \mathrm{AB} > \mathrm{SB}$ 提示有 $ \mathrm{CO}_{2}$ 㶆留, 为呼吸性酸中毒; $ \mathrm{AB} < \mathrm{SB}$ 提示有 $ \mathrm{CO}_{2}$ 排出过多, 为呼吸性碱中毒。"
+    },
+    {
+        "query": "什么是缓冲碱 (BB)?",
+        "answer": "缓冲碱 (BB) 是指血液中一切具有缓冲作用的阴离子的总量。全血缓冲碱包括 $ \mathrm{HCO}_{3}^{-}, \mathrm{Hb}^{-}, \mathrm{Pr}^{-}, \mathrm{HPO}_{4}^{2-}$ 等, 正常范围为 $45 \sim 55 \mathrm{mmol} / \mathrm{L}$, 平均为 $50 \mathrm{mmol} / \mathrm{L}$。"
+    },
+    {
+        "query": "代谢性酸中毒时缓冲碱 (BB) 的变化是什么?",
+        "answer": "代谢性酸中毒时, BB 减少。"
+    },
+    {
+        "query": "代谢性碱中毒时缓冲碱 (BB) 的变化是什么?",
+        "answer": "代谢性碱中毒时, BB 增加。"
+    },
+    {
+        "query": "什么是碱剩余 (BE)?",
+        "answer": "碱剩余 (BE) 是指在 $38^{ circ} \mathrm{C}$, 血红蛋白完全氧合, $ \mathrm{PCO}_{2}$ 为 $5.32 \mathrm{kPa}$ 的条件下, 将 1 升全血或血浆滴定到 $ \mathrm{pH} 7.4$ 所需要的酸或碱的毫克分子量, 正常值为 $0 \pm 3 \mathrm{mmol} / \mathrm{L}$。"
+    },
+    {
+        "query": "代谢性酸中毒时碱剩余 (BE) 的变化是什么?",
+        "answer": "代谢性酸中毒时, 缓冲碱减少, 需用碱将血液滴定到 $ \mathrm{pH} 7.4$, BE 用负值表示。"
+    },
+    {
+        "query": "碱过剩 (BE) 可以分为哪几种测法?",
+        "answer": "碱过剩分全血与血浆两种测法。细胞外液碱过剩 (BEecf) 是反映代谢性因素的较好指标; 全血缓冲碱 (BEb) 由于包括 $ \mathrm{Hb}$ 在内, 故受病人 $ \mathrm{Hb}$ 的量的影响。"
+    }
+]
