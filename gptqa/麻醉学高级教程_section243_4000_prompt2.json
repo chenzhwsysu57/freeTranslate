@@ -1,0 +1,22 @@
+[
+    {
+        "query": "What are the clinical characteristics of desflurane in surgical patients?",
+        "answer": "Desflurane is known for its low blood-gas partition coefficient, which contributes to its rapid onset and offset. This means it allows for quick adjustments in anesthetic depth, making it particularly useful in cases where rapid changes in anesthesia levels are required. A study published in Anesthesiology in 1991 by Rampil IJ, Lockhart S, Zwass M, and colleagues, examined the minimum alveolar concentration (MAC) of desflurane, which is a measure of its potency. The MAC of desflurane was found to be approximately 6.0% in surgical patients, indicating that higher concentrations are required compared to some other anesthetics like isoflurane or sevoflurane."
+    },
+    {
+        "query": "How do intravenous opioids affect airway irritation during the induction of anesthesia with desflurane in adults?",
+        "answer": "Intravenous opioids have been shown to reduce airway irritation during the induction of anesthesia with desflurane. A study conducted by Kong CF, Chew STH, and Ip-Yam PC and published in the British Journal of Anaesthesia in 2000 found that the use of intravenous opioids during desflurane induction significantly diminished airway irritation and cough reflex, leading to a smoother induction process. This effect is beneficial in minimizing the discomfort and complications associated with airway irritation during the early stages of anesthesia."
+    },
+    {
+        "query": "What is the impact of dry soda lime on sevoflurane during simulated inhalation induction?",
+        "answer": "Dry soda lime can have a detrimental effect on sevoflurane during inhalation induction. A study by Funk W, Gruber M, Wild K, and colleagues, published in the British Journal of Anaesthesia in 1999, demonstrated that dry soda lime significantly degrades sevoflurane. This degradation occurs because dry soda lime absorbs sevoflurane more readily than other inhaled anesthetics, which can lead to reduced efficacy of the anesthetic and possible alterations in the induction process. This effect underscores the importance of maintaining appropriate humidity levels in the anesthetic circuit to ensure optimal performance of sevoflurane."
+    },
+    {
+        "query": "How does premedication with midazolam affect recovery after ambulatory sevoflurane anesthesia in children?",
+        "answer": "Premedication with midazolam has been found to delay recovery after ambulatory sevoflurane anesthesia in children. The study by Viitanen H, Annila P, Viitanen M, and Tarkkila P, published in Anesthesia & Analgesia in 1999, investigated the effects of midazolam premedication on recovery times. The results indicated that children who received midazolam before sevoflurane anesthesia experienced a longer recovery period compared to those who did not receive the premedication. This delay in recovery is attributed to the sedative effects of midazolam, which extend the time needed for full anesthetic emergence and cognitive recovery."
+    },
+    {
+        "query": "What are the differences in recovery profiles between desflurane-nitrous oxide and isoflurane-nitrous oxide in outpatients?",
+        "answer": "The recovery profiles of desflurane-nitrous oxide versus isoflurane-nitrous oxide anesthesia differ significantly. According to a study by Gnouri AF, Bodner M, and White PF, published in Anesthesiology in 1991, patients who received desflurane-nitrous oxide exhibited faster recovery times compared to those who were administered isoflurane-nitrous oxide. Desflurane's lower blood-gas partition coefficient contributes to its rapid elimination from the body, resulting in quicker recovery from anesthesia. This characteristic is particularly advantageous in outpatient settings where quick postoperative recovery is desirable."
+    }
+]
