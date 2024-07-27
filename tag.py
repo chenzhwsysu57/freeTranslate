@@ -2,6 +2,13 @@ import tagui as t
 import pyperclip as clip
 import json
 import urllib.parse
+import sys 
+if sys.platform == 'darwin':
+    MODIFIER = '[cmd]'
+elif sys.platform == 'linux':
+    MODIFIER = '[ctrl]'
+else:
+    raise NotImplementedError(f"{sys.platform} not implmented!")
 
 def translate(input):
     t.init(visual_automation=True)
@@ -13,8 +20,8 @@ def translate(input):
     
     clip.copy(f"{input}<tag>")
     t.click('<tag>')
-    t.keyboard('[cmd]a')
-    t.keyboard('[cmd]v')
+    t.keyboard(f'{MODIFIER}a')
+    t.keyboard(f'{MODIFIER}v')
     # t.click('Copy translation')
     t.click('复制译文')
     t.close()

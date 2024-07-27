@@ -1,11 +1,15 @@
 [
     {
         "query": "哪些手术可以在门诊或非住院手术中心进行？",
-        "answer": "非住院手术的病种应选择创伤小、对生理影响少、术后不会发生严重并发症的手术。一般能在3小时内完成，且估计术中失血量少于500ml，无手术和麻醉后并发症的手术均可在门诊进行。"
+        "answer": "非住院手术的病种应选择创伤小、对生理影响少、术后不会发生严重并发症的手术。一般能在3小时内完成，且估计术中失血量少于500ml，无手术和麻醉后并发症的手术均可在门诊进行。",
+        "query_en": "What surgeries can be performed in an outpatient or ambulatory surgery center?",
+        "answer_en": "For non-hospitalized surgeries, the types of diseases that require surgery should be those that are less invasive, have less physiological impact, and will not cause serious complications after surgery. Generally, they can be completed within 3 hours, and the estimated blood loss during surgery is less than 500ml. Surgeries without surgical and post-anesthesia complications can be performed in outpatient clinics. "
     },
     {
         "query": "适合进行非住院手术的患者有哪些条件？",
-        "answer": "一般认为，患者病情不十分复杂，ASA评级为I或II级，手术时间在1小时以内，年龄在6个月至70岁之间最适合非住院手术。"
+        "answer": "一般认为，患者病情不十分复杂，ASA评级为I或II级，手术时间在1小时以内，年龄在6个月至70岁之间最适合非住院手术。",
+        "query_en": "What are the conditions for patients who are suitable for outpatient surgery?",
+        "answer_en": "It is generally believed that patients with less complicated conditions, ASA grade I or II, surgery time of less than 1 hour, and age between 6 months and 70 years old are most suitable for ambulatory surgery."
     },
     {
         "query": "非住院手术的体重和年龄限制是什么？",
