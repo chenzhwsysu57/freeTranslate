@@ -9,6 +9,48 @@ elif sys.platform == 'linux':
     MODIFIER = '[ctrl]'
 else:
     raise NotImplementedError(f"{sys.platform} not implmented!")
+import time 
+
+import os
+from dotenv import load_dotenv
+from openai import OpenAI
+import openai
+
+# 加载环境变量
+load_dotenv()
+
+# 从环境变量中获取API密钥
+openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.base_url=os.getenv("OPENAI_BASE_URL")
+print(openai.base_url)
+client = OpenAI()
+def translate_by_gpt(input_text):
+    try:
+        # 调用 OpenAI API 进行翻译
+        response = client.chat.completions.create(
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": f"Translate the following Chinese text to English: {input_text}"}
+            ],
+            max_tokens=100,
+            temperature=0.3
+        )
+        # 提取翻译结果
+        translation = response.choices[0].message.content
+        return translation
+    except Exception as e:
+        return str(e)
+    
+def wait_until_present( selector):
+    start_time = time.time()
+    timeout = 20
+    while time.time() - start_time < timeout:
+        if t.present(selector):
+            return True
+        time.sleep(1)  # 等待1秒后再次检查
+    t.close()
+    raise TimeoutError(f"超过等待时间 {timeout} 秒，无法找到元素 {selector}")
 
 def translate(input):
     t.init(visual_automation=True)
@@ -17,21 +59,30 @@ def translate(input):
     url = f'https://translate.google.com/?sl=zh-CN&tl=en&text=%3Ctag%3E&op=translate'
     t.url(url)
     t.keyboard('[esc]')
+
     
     clip.copy(f"{input}<tag>")
+    try:
+        wait_until_present('<tag>') 
+    except:
+        return input
     t.click('<tag>')
     t.keyboard(f'{MODIFIER}a')
     t.keyboard(f'{MODIFIER}v')
     # t.click('Copy translation')
-    t.click('复制译文')
+    wait_until_present('复制译文')
+    try:
+        t.click('复制译文')
+    except:
+        return input
     t.close()
-    while clip.paste() == input:
-        pass
 
     print(f"result: {clip.paste().replace('<tag>','')}")
     return clip.paste().replace('<tag>',"")
 
 
+
+    
 def json_to_csv(json_path, dest, *fields):
     '''
     翻译 JSON 文件中的指定字段，并在每次翻译后立即写回 JSON 文件。
@@ -59,13 +110,16 @@ def json_to_csv(json_path, dest, *fields):
         for field in fields:
             original_text = item.get(field)
             translated_text = item.get(f"{field}_{dest}")
-
             if not translated_text:  # 检查是否已经翻译
                 try:
                     # 进行翻译
-                    print(f"translating...{original_text}", end=" ")
-                    translated_text = translate(original_text)
+                    print(f"translating...{original_text}", end=" ", flush=True)
+                    # translated_text = translate(original_text)
+                    translated_text = translate_by_gpt(original_text)
+                    print(f"{translated_text[:10]}", end="\n",flush=True)
                     # print(translated_text)
+                    if original_text == translated_text:
+                        continue
                     item[f"{field}_{dest}"] = translated_text  # 写入翻译结果
 
                     # 翻译后立即写回文件
