@@ -1,6 +1,7 @@
 import tagui as t
 import pyperclip as clip
 import json
+import json5 
 import urllib.parse
 import sys 
 if sys.platform == 'darwin':
@@ -25,14 +26,77 @@ openai.base_url=os.getenv("OPENAI_BASE_URL")
 print(openai.base_url)
 client = OpenAI()
 def translate_by_gpt(input_text):
+    custom_message = [
+        {"role": "system", "content": "You are a helpful translating assistant."},
+        {"role": "user", "content": f"""Given the following content, judge if this could be translated into English.  If it is English already, just repeat it directly. Else you need to translate it. If you see numbers you alos repeat it. Don't return any other texts.
+
+For example:
+
+###INPUT###
+高龄对消化系统的影响有哪些？
+
+###OUTPUT### 
+What are the effects of old age on the digestive system?
+
+###INPUT###
+高龄对血液系统的影响有哪些？
+
+
+###OUTPUT###
+What are the effects of old age on the blood system?
+
+
+###INPUT###
+What is the title of the book edited by Miller RD that includes information on respiratory care?
+ ###OUTPUT###
+What is the title of the book edited by Miller RD that includes information on respiratory care?
+
+###INPUT###
+Guttmann J, Bernhard H, Mols G, et al. Respiratory comfort of automatic tube compensation and inspiratory pressure support in conscious humans. Intensive Care Med, 1997, 23:1119.
+
+###OUTPUT###
+Guttmann J, Bernhard H, Mols G, et al. Respiratory comfort of automatic tube compensation and inspiratory pressure support in conscious humans. Intensive Care Med, 1997, 23:1119.
+
+
+###INPUT###
+VitPP
+
+###OUTPUT###
+VitPP
+
+###INPUT###
+12
+
+###OUTPUT###
+12 
+
+###INPUT###
+两次
+
+###OUTPUT###
+twice
+
+###INPUT###
+rRNA
+###OUTPUT###
+rRNA
+
+Your task: 
+###INPUT###
+{input_text}
+
+###OUTPUT###
+"""}
+    ]
     try:
         # 调用 OpenAI API 进行翻译
         response = client.chat.completions.create(
             model="gpt-4",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": f"Translate the following Chinese text to English: {input_text}"}
-            ],
+            # messages=[
+            #     {"role": "system", "content": "You are a helpful assistant."},
+            #     {"role": "user", "content": f"Translate the following Chinese text to English: {input_text}. If it is English already, just repeat it. Don't return any other texts."}
+            # ],
+            messages=custom_message,
             max_tokens=100,
             temperature=0.3
         )
@@ -97,7 +161,9 @@ def json_to_csv(json_path, dest, *fields):
     # 读取 JSON 文件
     try:
         with open(json_path, 'r', encoding='utf-8') as file:
-            data = json.load(file)
+            print(f"loading {file}")
+            data = json5.load(file)
+            print(f"done")
     except FileNotFoundError:
         print(f"Error: The file at {json_path} was not found.")
         return
@@ -116,10 +182,10 @@ def json_to_csv(json_path, dest, *fields):
                     print(f"translating...{original_text}", end=" ", flush=True)
                     # translated_text = translate(original_text)
                     translated_text = translate_by_gpt(original_text)
-                    print(f"{translated_text[:10]}", end="\n",flush=True)
+                    print(f"{translated_text}", end="\n",flush=True)
                     # print(translated_text)
-                    if original_text == translated_text:
-                        continue
+                    # if original_text == translated_text:
+                    #     continue
                     item[f"{field}_{dest}"] = translated_text  # 写入翻译结果
 
                     # 翻译后立即写回文件
